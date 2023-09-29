@@ -6,7 +6,7 @@
           'How many moons does Venus have?'
         ];
         const answers = [1, 82, 0];
-      
+        //change const to let
         let score = 0;
         //change 1 to questions.length
         let num = Math.floor(Math.random() * questions.length);
